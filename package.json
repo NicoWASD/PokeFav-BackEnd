@@ -1,0 +1,40 @@
+{
+  "name": "pokefav-backend",
+  "version": "1.0.0",
+  "description": "Aplicación web responsiva para explorar Pokémon utilizando la PokéAPI, con funcionalidad de guardado de favoritos mediante persistencia local y una interfaz de usuario monocromática.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoWASD/PokeFav-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/NicoWASD/PokeFav-BackEnd/issues"
+  },
+  "homepage": "https://github.com/NicoWASD/PokeFav-BackEnd#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mariadb": "^3.5.2",
+    "mysql2": "^3.22.4",
+    "nodemailer": "^8.0.9",
+    "pg": "^8.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
